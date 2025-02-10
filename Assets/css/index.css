@@ -869,3 +869,452 @@ body{
     color: black;
     transition: 0.5s;
 }
+.minimenu{
+    width: 100%;
+    height: 100%;
+    background-color: #fffaf3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.minimenuinner{
+    width: 90%;
+    height: 90%;
+    display: flex;
+}
+.leftmenu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftinner{
+    width: 80%;
+    height: 80%;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    border: 1px solid black;
+    transition: 0.7s;
+    position: relative;
+
+}
+.leftinner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50% 50% 0 0;
+    transition: 0.7s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.leftinner:hover{
+    transform: translate(-10px,10px);
+
+}
+.leftinner img:hover{
+    top: -20px;
+    left: 20px;
+}
+.rightmenu{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.rightmenutop{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightmenutop p{
+    width: 60%;
+    height: 100%;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.rightmenutop img{
+    padding-right: 40px;
+}
+.menu{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.menucard{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+}
+.menucardimage{
+    width: 100%;
+    height: 80%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.menucardimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.menucarddetails{
+    width: 100%;
+    height: 20%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: smaller;
+    font-weight: bolder;
+}
+.menucarddetailsleft{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.menucarddetailsleft span p{
+    color: #da4e6c;
+}
+.menucard:hover img{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.greatsavings{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gsinner{
+    width: 95%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.gsleft{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.gscart1{
+    width: 310px;
+    height: 330px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.gscart1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;   
+}
+.gscartdetails{
+    position: absolute;
+    bottom: 20px;
+    right: 32px;
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: smaller;
+    font-weight: bolder;
+}
+.gscartdetailsleft{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.gscartdetailsleft span p{
+    color: #da4e6c;
+}
+.gscartdetailsleft p:hover{
+    color: #da4e6c;
+    transition: 0.5s;
+}
+.gscart1 img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.gsleft span img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 51%;
+    top: -20px;
+    animation: key 100000s infinite;
+}
+.off{
+    width: 20px;
+    height: 20px;
+    font-family: "Outfit", serif;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 54%;
+}
+.gsright{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.rightinner{
+    width: 100%;
+    height: 100%;
+    mask-image: url(../images/bg-media.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.rightcontent{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    color: white;
+    gap: 25px;
+}
+.rightcontent h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.rightcontent button{
+    width: 130px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+}
+.rightbottom{
+    font-size: 55px;
+    font-weight: bolder;
+    color: wheat;
+    opacity: 60%;
+}
+.destination{
+    width: 100%;
+    height: 100%;
+    background-color: #fffaf3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.destinationleft{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.destinationleft iframe{
+    width: 100%;
+    height: 90%;
+}
+.destinationright{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+}
+.righttitle{
+    width: 370px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+}
+.righttitle h1{
+    font-weight: bolder;
+}
+.righttitle h3{
+    font-weight: lighter;
+}
+.slider{
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scart1{
+    width: 210px;
+    height: 230px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.scart1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;   
+}
+.scartdetails{
+    position: absolute;
+    bottom: 20px;
+    right: 32px;
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: smaller;
+    font-weight: bolder;
+}
+.scartdetailsleft{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.scartdetailsright{
+    font-size: 10px;
+}
+.scartdetailsleft span p{
+    color: #3aab84;
+}
+.scartdetailsleft p:hover{
+    color: #da4e6c;
+    transition: 0.5s;
+}
+.scart1 img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.blockbuster{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blockbusterinner{
+    width: 90%;
+    height: 90%;
+}
+.blockbusterheading{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.blockbusterheading h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.blockbusterheading h5{
+    font-weight: lighter;
+}
+.blockbustercontent{
+    width: 100%;
+    height: 85%;
+    /* background-color: #eee5db; */
+    padding-left: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.contentcart{
+    width: 275px;
+    height: 325px;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 90%;
+    /* box-shadow: 0 4px 12px 0px  #eee5db; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.contentcartinner{
+    width: 100%;
+    height: 75%;
+    /* background-color: green; */
+    padding: 10px;
+    position: relative;
+}
+.contentcartinner img{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: -35px;
+}
+.contentcarddetails{
+    width: 100%;
+    height: 30%;
+    padding: 8px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: smaller;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.contentcarddetailsleft{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.contentcarddetailsleft span p{
+    color: #da4e6c;
+}
+.contentcart:hover .contentcartinner img{
+    top: -75px;
+    transition: 1s;
+}
+.contentcarddetailsleft p:hover{
+    color: #df5e5e;
+    transition: 0.5s;
+}
