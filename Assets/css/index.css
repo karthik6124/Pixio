@@ -1258,7 +1258,6 @@ body{
 .blockbustercontent{
     width: 100%;
     height: 85%;
-    /* background-color: #eee5db; */
     padding-left: 10px;
     display: flex;
     align-items: flex-end;
@@ -1273,14 +1272,12 @@ body{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 90%;
-    /* box-shadow: 0 4px 12px 0px  #eee5db; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 .contentcartinner{
     width: 100%;
     height: 75%;
-    /* background-color: green; */
     padding: 10px;
     position: relative;
 }
@@ -1294,7 +1291,6 @@ body{
     width: 100%;
     height: 30%;
     padding: 8px;
-    /* background-color: blue; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1318,3 +1314,41 @@ body{
     color: #df5e5e;
     transition: 0.5s;
 }
+.offers{
+    width: 100%;
+    height: 90%;
+    background-color: #fffaf3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offersinner{
+    width: 90%;
+    height: 90%;
+}
+.offersheading{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.offersheading h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.offersheading h5{
+    font-weight: lighter;
+}
+.offersimg{
+    width: 100%;
+    height: 85%;
+    background-color: yellow;
+}
+.offersimginner{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+.offers
