@@ -1323,7 +1323,7 @@ body{
     justify-content: center;
 }
 .offersinner{
-    width: 90%;
+    width: 100%;
     height: 90%;
 }
 .offersheading{
@@ -1332,7 +1332,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
 }
 .offersheading h2{
     font-size: 35px;
@@ -1341,14 +1341,73 @@ body{
 .offersheading h5{
     font-weight: lighter;
 }
+.offersimgcart{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .offersimg{
     width: 100%;
     height: 85%;
-    background-color: yellow;
+    position: relative;
 }
 .offersimginner{
     width: 100%;
     height: 100%;
-    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
-.offers
+.offersimginner img{
+    width: 98%;
+    height: 85%;
+    border-radius: 40px;
+}
+.offersdetails{
+    position:absolute ;
+    top: 200px;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.offersdetails h4{
+    position: absolute;
+    top: -100px;
+    left: -12px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offersdetails h1{
+    position: absolute;
+    top: -40px;
+    left: -12px;
+    width: 200px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.offersdetails button{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e0dcd7;
+    font-family: "Numans", serif;
+    font-weight: 900;
+}
+.offersdetails button:hover{
+    background-color: #000;
+    color: #ffffff;
+    transition: 0.5s;
+}
